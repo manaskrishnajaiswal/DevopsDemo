@@ -3,6 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+# Below code causes pipeline to run itself, when there is any change in branch e.g. master
 trigger:
 - master
 
