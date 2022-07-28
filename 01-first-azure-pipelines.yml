@@ -7,6 +7,7 @@
 trigger:
 - master
 
+# Below code uses ubuntu latest image as agent machine.
 pool:
   vmImage: ubuntu-latest
 
